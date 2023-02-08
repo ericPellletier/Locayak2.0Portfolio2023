@@ -1,0 +1,144 @@
+#image-profile{
+    width: 300px;
+    height: auto;
+}
+#zone-membre-global{
+    margin: 5%;
+  background-color: #e9d8a9;
+  border:1px solid black;
+}
+#zone-membre-info{
+    display: flex;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#zone-membre-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 15%;
+
+}
+.nom{
+   font-size: 25px;
+   text-align: center;
+}
+.mes-kayak{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-page-membre{
+    padding-top: 15px;
+    height: 400px;
+    width:400px; 
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border: 2px;
+    background-color: #e9d8a9;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(121, 120, 120);
+  }
+  .card-img-top-membre{
+    display: flex;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    max-width: 150px;
+    height: 100px;
+  }
+  #text-info{
+    color: #fff;
+  }
+  .btn-primary2-membre{
+    position: absolute;
+    margin-top: 8%;
+    background: #5f5d59;
+    color: #fff;
+  }
+
+  
+  .groupe-inscription{
+    display: flex;  
+  }
+
+  .chat {
+    width: 400px;
+    height: 400px;
+    background-color: #ffcb3d;
+    align-self: center;
+    margin-left: 35%;
+    overflow: scroll;
+    scroll-snap-align: end;
+    
+}
+.messageBox{
+    width: 400px;
+    height: 50px;
+    background-color: #ffcb3d;
+    align-self: center;
+    margin-left: 35%;
+}
+.informationsBox{
+    width: 400px;
+    height: 50px;
+    background-color: #ffcb3d;
+    align-self: center;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.bubble{
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0 0 6px #B2B2B2;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+}
+
+.bubble::before {
+    background-color: #F2F2F2;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+}
+
+.me {
+    background-color: #1d54ec;
+    float: left;   
+    margin: 5px 45px 5px 20px;         
+}
+
+.me::before {
+    background-color: #1d54ec;
+
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px;           
+}
+
+.you {
+    float: right;    
+    margin: 5px 20px 5px 45px;         
+}
+
+.you::before {
+    box-shadow: 2px -2px 2px 0 rgba( 178, 178, 178, .4 );
+    right: -9px;    
+}
+

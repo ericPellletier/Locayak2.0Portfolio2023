@@ -1,0 +1,101 @@
+.kayak > .resume{
+    position: relative;
+    border:solid 1px black; margin:5px; padding:5px;
+    background-color:aquamarine;
+    width: 50%;
+    height: 15%;
+    bottom: 20%;
+    left: 22%;
+}
+  .liste-kayak{
+    display: flex;
+    align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+  .resume {
+  }
+  .renseignement{
+    border:solid 1px black; margin:5px; padding:5px;
+  }
+
+  .barre-recherche{
+    display: flex;
+   justify-content: center;
+    margin-top:15px;
+  }
+.card-img-top{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: auto;
+  max-width: 300px;
+  height: 250px;
+}
+.card{
+  padding-top: 15px;
+  height: 500px;
+  width:500px; 
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  border: 2px;
+  background-color: #e9d8a9;
+  border: solid 2px rgb(121, 120, 120);
+}
+  .barre-recherche > button {
+    height: 39;
+  }
+  .btn-primary2{
+    position: absolute;
+    bottom: 15px;
+    background: #ffbd08;
+    color: #fff;
+  }
+  .btn-primary{
+    background: #ffbd08;
+  }
+
+  /* Pour la page annonce  */
+  .AnnonceConfirmation{
+    display: flex;
+    flex-direction: column;
+    background-color: #e9d8a9; 
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    margin-top: 25px;
+    
+   }
+   .Centre{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+   }
+   .titreConfirmation{
+     font-size: 25px;
+   }
+   textarea {
+    width: 300px;
+    height: 150px;
+  }
+  .container{
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border: 2px;
+    border: solid 2px rgb(194, 191, 167);
+  }
+  .message-bienvenue{
+    color: #fff;
+    align-items: center;
+    font-size: large;
+  }
+
+  .zone-bienvenue{
+    display: flex;
+    justify-content: center;
+  }
+

@@ -1,0 +1,118 @@
+s.kayak > .descriptionAnnonce{
+    position: relative;
+    border:solid 1px black; margin:5px; padding:5px;
+    background-color:aquamarine;
+    width: 50%;
+    height: 15%;
+    bottom: 20%;
+    left: 22%;
+}
+  div {
+  }
+  .liste-kayak{
+      
+  }
+  .kayak{
+
+  }
+
+  .descriptionAnnonce {
+  }
+.image{
+    
+    background-color: bisque;
+    width: 30%;
+    height: 15%;
+}
+.image > img{
+    width: 70%;
+}
+
+.renseignementLieu{
+    border:solid 1px black; margin:5px; padding:5px;
+}
+
+.renseignementPropriétaire{
+  border:solid 1px black; margin:5px; padding:5px;
+}
+
+.boutonAjouter {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.boutonAjouter:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.boutonAjouter:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.boutonModifier {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.boutonModifier:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.boutonModifier:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.boutonSupprimer {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.boutonSupprimer:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.boutonSupprimer:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}

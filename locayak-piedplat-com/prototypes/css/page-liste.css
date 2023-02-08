@@ -1,0 +1,32 @@
+.kayak > .resume{
+    position: relative;
+    border:solid 1px black; margin:5px; padding:5px;
+    background-color:aquamarine;
+    width: 50%;
+    height: 15%;
+    bottom: 20%;
+    left: 22%;
+}
+  div {
+  }
+  .liste-kayak{
+      
+  }
+  .kayak{
+
+  }
+
+  .resume {
+  }
+.image{
+    
+    background-color: bisque;
+    width: 30%;
+    height: 15%;
+}
+.image > img{
+    width: 70%;
+  }
+  .renseignement{
+    border:solid 1px black; margin:5px; padding:5px;
+  }
