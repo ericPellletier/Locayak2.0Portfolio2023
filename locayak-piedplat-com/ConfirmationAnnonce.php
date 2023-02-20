@@ -49,7 +49,7 @@ require_once CHEMIN_DAO."MembreDAO.php";
         <input type="hidden" name="return" value="google.ca" />
         <input type="submit" value="Payer" />
       </form> -->
-      <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
+      <scripte src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
       <button onclick="testUrl()"><?= _('Faux Bouton de paiement')?></button>
 <!-- Set up a container element for the button -->
 <div id="paypal-button-container"></div>

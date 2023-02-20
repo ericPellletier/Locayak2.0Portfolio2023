@@ -26,26 +26,26 @@
 
 
     <ul id = "mesLiens">
-      <li><a href="index.php"><?= _('Accueil') ?></a></li>
-      <li><a href="liste-kayaks-v-deux.php"><?= _('En Location')?></a></li>
+      <li><a href="index.php"><?= _('ACCUEIL') ?></a></li>
+      <li><a href="liste-kayaks-v-deux.php"><?= _('EN LOCATION')?></a></li>
       <?php
           if(isset($_SESSION["idMembre"]))
           { 
             ?>
-            <li><a href='membre/membre.php'><?= _('Mon Compte')?></a></li>
-            <li><a href='membre/traitement-deconnexion.php'><?= _('Déconnexion')?></a></li>
+            <li><a href='membre/membre.php'><?= _('MON COMPTE')?></a></li>
+            <li><a href='membre/traitement-deconnexion.php'><?= _('DÉCONNEXION')?></a></li>
             <?php
           }
           else
           {
             ?>
-            <li><a href='membre/formulaire-authentification.php'><?= _('Identifiez vous')?></a></li>
-            <li><a href='membre/inscription.php'><?= _('Pas de compte? Inscrivez vous')?></a></li>
+            <li><a href='membre/formulaire-authentification.php'><?= _('IDENTIFIEZ VOUS')?></a></li>
+            <li><a href=''><?= _('AUCUNE INSCRIPTION AUTORISÉ DÉSOLÉ')?></a></li>
             <?php
           }
       ?>
-      <li><a href="Projet.php"><?= _('À propos')?></a></li>
-      <li><a href="#"><?= _('Messagerie') ?></a></li>
+      <li><a href="Projet.php"><?= _('À PROPOS')?></a></li>
+      <li><a href="#"><?= _('MESSAGERIE') ?></a></li>
     </ul> 
   <script src="scripts/menu.js"></script>
   <script src="scripts/changerLangues.js"></script>

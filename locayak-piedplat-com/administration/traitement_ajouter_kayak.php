@@ -3,7 +3,7 @@ require_once "../configuration.php";
 require_once CHEMIN_DAO."KayakDAO.php";
 
 
-$repertoireIllustration = $_SERVER['DOCUMENT_ROOT'] . "/DevoirTransactionnel/images/";
+$repertoireIllustration = $_SERVER['DOCUMENT_ROOT'] . "/images/";
 $fichierDestination = $repertoireIllustration . $_FILES['illustration']['name'];
 
 $fichierSource = $_FILES['illustration']['tmp_name'];

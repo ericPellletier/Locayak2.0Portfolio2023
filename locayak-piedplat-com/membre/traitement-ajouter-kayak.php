@@ -2,12 +2,13 @@
 require_once "../configuration.php";
 require_once CHEMIN_DAO."KayakDAO.php";
 
-$repertoireIllustration = $_SERVER['DOCUMENT_ROOT'] . "locayak-com/DevoirTransactionnel/images/";
+$repertoireIllustration = $_SERVER['DOCUMENT_ROOT'] . "/images/";
 //echo($repertoireIllustration);
 $fichierDestination = $repertoireIllustration . $_FILES['illustration']['name'];
 //print_r($fichierDestination);
-
+//print_r("   <<______>>   ");
 $fichierSource = $_FILES['illustration']['tmp_name'];
+
 //print_r($fichierSource);
 
 move_uploaded_file($fichierSource,$fichierDestination);
